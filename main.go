@@ -26,9 +26,3 @@ func main() {
 	r.Run("0.0.0.0:" + port)
 }
 
-func test(t *testing.T) {
-	if 2+2 != 4 {
-		t.Error("Math broke!")
-	}
-}
-
