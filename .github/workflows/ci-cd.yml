@@ -2,9 +2,9 @@ name: Go CI/CD Pipeline
 
 on:
   push:
-    branches: [ main, develop, 'feature/**', 'release/**', 'hotfix/**' ]
+    branches: [ master, develop, 'feature/**', 'release/**', 'hotfix/**' ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
 
 jobs:
   test:
