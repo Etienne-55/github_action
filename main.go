@@ -4,7 +4,6 @@ import (
 	"hello/routes"
 	"log"
 	"os"
-	"testing"
 
 	"github.com/gin-gonic/gin"
 )
